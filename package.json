@@ -1,6 +1,6 @@
 {
   "name": "my-app",
-  "homepage": "http://picklehack.io/",
+  "homepage": "http://picklehack.pickhacks.io/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
