@@ -1,6 +1,6 @@
 # PickleHack 2021 page
 
-[View Live](https://prehacks.pickhacks.io/)
+[View Live](https://picklehack.io/)
 
 ## Table of Contents
 
