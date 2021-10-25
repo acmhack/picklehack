@@ -21,12 +21,12 @@ const TitleAlt: AnyStyledComponent = styled.span`
 `;
 
 const SubTitle: AnyStyledComponent = styled.div`
-  font-size: 1.3vw;
+  font-size: 1.5vw;
   text-align: center;
   font-family: "Poppins", sans-serif;
   color: white;
-  @media screen and (max-width: 1000px) {
-    font-size: 2vw;
+  @media screen and (max-width: 800px) {
+    font-size: 3vw;
   }
 `;
 
@@ -52,7 +52,8 @@ const SectionDescription: AnyStyledComponent = styled.div`
   color: white;
   font-family: "Poppins", sans-serif;
   @media screen and (max-width: 600px) {
-    font-size: 10px;
+    font-size: 15px;
+    padding: 12px;
   }
 `;
 
@@ -62,37 +63,22 @@ const ButtonDiv: AnyStyledComponent = styled.div`
   display: flex;
 `;
 
-const SpiderImg: AnyStyledComponent = styled.div`
-  display: flex;
+// const SpiderImg: AnyStyledComponent = styled.div`
+//   display: flex;
 
-  justify-content: flex-start;
-`;
+//   justify-content: flex-start;
+// `;
 
-const WitchImg: AnyStyledComponent = styled.div`
-  display: flex;
-  justify-content: flex-end;
-`;
-
-const TestDiv: AnyStyledComponent = styled.div`
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  width: 100%;
-  margin-left: -200px;
-`;
-const TestDiv2: AnyStyledComponent = styled.div`
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-right: -500px;
-  width: 100%;
-`;
+// const WitchImg: AnyStyledComponent = styled.div`
+//   display: flex;
+//   justify-content: flex-end;
+// `;
 
 const Logo: AnyStyledComponent = styled.img`
   height: 7vw;
   width: auto;
-  @media screen and (max-width: 600px) {
-    height: 10vw;
+  @media screen and (max-width: 800px) {
+    height: 12vw;
   }
 `;
 export default () => {
