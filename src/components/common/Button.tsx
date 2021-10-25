@@ -19,8 +19,10 @@ const Button: AnyStyledComponent = styled.a`
   color: white;
   cursor: pointer;
   transition: fill 0.25s;
-
-  @media screen and (max-width: 1000px) {
+  @media screen and (max-width: 1200px) {
+    font-size: 3.2vw;
+  }
+  @media screen and (max-width: 800px) {
     font-size: 4vw;
   }
 `;

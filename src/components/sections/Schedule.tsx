@@ -22,18 +22,26 @@ const ScheduleDiv: AnyStyledComponent = styled.div`
   display: flex;
   font-family: "Poppins", sans-serif;
   flex-direction: row;
-  font-size: 1.3vw;
+  font-size: 1.1vw;
   padding-top: 1%;
-
+  @media screen and (max-width: 1500px) {
+    font-size: 1.9vw;
+  }
   @media screen and (max-width: 1000px) {
-    font-size: 1.5vw;
+    font-size: 2vw;
   }
   @media screen and (max-width: 800px) {
-    font-size: 2vw;
+    font-size: 3vw;
     padding-top: 1%;
   }
   @media screen and (max-width: 600px) {
-    font-size: 2.3vw;
+    font-size: 3vw;
+  }
+  @media screen and (max-width: 400px) {
+    font-size: 2.7vw;
+  }
+  @media screen and (max-width: 350px) {
+    font-size: 2.4vw;
   }
 `;
 const DateDiv: AnyStyledComponent = styled.div`
@@ -72,20 +80,33 @@ export default () => {
           <DateDiv>
             <Text style={{ color: "#90c640" }}>NAME</Text>
             <Text>Check-in</Text>
-            <Text>Open Ceremony</Text>
-            <Text>Activity</Text>
+            <Text>Opening Ceremony</Text>
+            <Text>Dinner</Text>
+            <Text>Networking</Text>
+            <Text>Hacking begins</Text>
+            <Text>Poker Night</Text>
+            <Text>Scary Movie</Text>
+            <Text>Lunch</Text>
+            <Text>Virtual Game</Text>
             <Text>Hacking Ends</Text>
             <Text>Judging</Text>
-            <Text>Close Ceremony</Text>
+            <Text>Closing Ceremony</Text>
           </DateDiv>
           <LocationDiv>
             <Text style={{ color: "#90c640" }}>DATE</Text>
+
             <Text>10/29 | 04:00 pm - 11:00 pm</Text>
             <Text>10/29 | 05:00 pm - 05:45 pm</Text>
-            <Text>10/30</Text>
+            <Text>10/29 | 07:00 pm</Text>
+            <Text>10/29 | 08:00 pm</Text>
+            <Text>10/29 | 08:00 pm</Text>
+            <Text>10/30 | 01:00 am - 03:00am</Text>
+            <Text>10/30 | 06:00 am - 08:00am</Text>
+            <Text>10/30 | 12:00 pm</Text>
+            <Text>10/30 | 12:00 pm</Text>
             <Text>10/30 | 06:00 pm</Text>
-            <Text>10/30 | 06:30 pm - 08:00 pm</Text>
-            <Text>10/30 | 08:00 pm - 09:00 pm</Text>
+            <Text>10/30 | 07:00 pm - 08:15 pm</Text>
+            <Text>10/30 | 08:30 pm - 09:30 pm</Text>
           </LocationDiv>
         </ScheduleDiv>
       </Constraint>

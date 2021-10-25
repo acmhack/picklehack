@@ -1,9 +1,7 @@
 import React from "react";
 import {
-  fifteen,
   nineteen,
   balto,
-  brewer,
   panera,
   centene,
   mastercard,
@@ -93,9 +91,7 @@ export default () => {
             <a target="_blank" href="http://tradebot.com/">
               <img src={tradebot} />
             </a>
-            <a target="_blank" href="https://www.sandia.gov/">
-              <img src={sandia} />
-            </a>
+
             <a
               target="_blank"
               href="https://www.deere.com/en/technology-products/precision-ag-technology/"
@@ -153,9 +149,6 @@ export default () => {
             </a>
           </div>
           <div className="row">
-            <a target="_blank" href="https://www.numerify.com/">
-              <img src={numerify} />
-            </a>
             <a target="_blank" href="https://www.softwaredesignpartners.com/">
               <img src={sdp} />
             </a>

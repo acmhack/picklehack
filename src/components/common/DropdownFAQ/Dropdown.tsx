@@ -8,18 +8,22 @@ interface IDropDownProps {
 }
 
 const Question: AnyStyledComponent = styled.div`
-  font-size: 1.3vw;
+  font-size: 1.7vw;
   color: #90c640;
   font-weight: bold;
   transition: all 0.1s linear;
   cursor: pointer;
   font-family: "Poppins", sans-serif;
-  @media screen and (max-width: 1000px) {
-    font-size: 1.7vw;
+  @media screen and (max-width: 1200px) {
+    font-size: 2vw;
   }
 
-  @media screen and (max-width: 800px) {
-    font-size: 2vw;
+  @media screen and (max-width: 1000px) {
+    font-size: 2.7vw;
+  }
+
+  @media screen and (max-width: 600px) {
+    font-size: 4vw;
   }
 `;
 
@@ -29,17 +33,18 @@ const Answer: AnyStyledComponent = styled.div`
   font-family: "Poppins", sans-serif;
   padding-bottom: 20px;
   padding-top: 20px;
-
+  @media screen and (max-width: 1200px) {
+    font-size: 1.5vw;
+  }
   @media screen and (max-width: 1000px) {
-    font-size: 1.2vw;
+    font-size: 2.3vw;
   }
 
-  @media screen and (max-width: 800px) {
-    font-size: 1.4vw;
-    padding: 20px;
-  }
   @media screen and (max-width: 600px) {
+    font-size: 2.7vw;
     padding-right: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
     padding-left: 40px;
   }
 `;
