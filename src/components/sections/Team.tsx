@@ -9,6 +9,7 @@ import {
   Jack,
   Himnish,
   Eddie,
+  Jake,
   Dominic,
   Carter,
   Bradley,
@@ -52,9 +53,15 @@ const Grid: AnyStyledComponent = styled.div`
   }
 `;
 
-const GridItem: AnyStyledComponent = styled.div`
+const GridItem: AnyStyledComponent = styled.a`
   display: flex;
   flex-direction: column;
+  @media (min-width: 1000px) {
+    &:hover {
+      transform: scale(1.1);
+      transition: transform 200ms ease-in-out;
+    }
+  }
 `;
 const GridImage: AnyStyledComponent = styled.img`
   height: 100px;
@@ -77,63 +84,106 @@ export default () => {
       </FlexCenter>
 
       <Grid>
-        <GridItem>
+        <GridItem href="https://www.linkedin.com/in/bhasree" target="_blank">
           <GridImage src={Bharat}></GridImage>
 
           <Name style={{ fontSize: "15.5px" }}>Bharat Sreekrishnavilas</Name>
         </GridItem>
 
-        <GridItem>
+        <GridItem
+          href="https://www.linkedin.com/in/edward-c-keith/"
+          target="_blank"
+        >
           <GridImage src={Eddie}></GridImage>
-
           <Name>Edward Keith</Name>
         </GridItem>
-        <GridItem>
+        <GridItem
+          href="https://www.linkedin.com/in/riley-fuller-ab021a1b7/"
+          target="_blank"
+        >
           <GridImage src={Riley}></GridImage>
           <Name>Riley Fuller</Name>
         </GridItem>
-        <GridItem>
+        <GridItem
+          href="https://www.linkedin.com/in/sabrina-m-baaa49162/"
+          target="_blank"
+        >
           <GridImage src={Sabrina}></GridImage>
           <Name>Sabrina McRoberts</Name>
         </GridItem>
-        <GridItem>
+        <GridItem
+          href="https://www.linkedin.com/in/rachel-liang-6a78731b5/"
+          target="_blank"
+        >
           <GridImage src={Rachel}></GridImage>
           <Name>Rachel Liang</Name>
         </GridItem>
-        <GridItem>
+        <GridItem
+          href="https://www.linkedin.com/in/teresa-billie-h-356a37108/"
+          target="_blank"
+        >
           <GridImage src={Billie}></GridImage>
           <Name>Billie Huang</Name>
         </GridItem>
-        <GridItem>
+        <GridItem href="https://www.linkedin.com/in/jackstork/" target="_blank">
           <GridImage src={Jack}></GridImage>
           <Name>Jack Stork</Name>
         </GridItem>
 
-        <GridItem>
+        <GridItem
+          href="https://www.linkedin.com/in/ryan-duffendack-866058194/"
+          target="_blank"
+        >
           <GridImage src={Ryan}></GridImage>
           <Name>Ryan Duffendack</Name>
         </GridItem>
-        <GridItem>
+        <GridItem
+          href="https://www.linkedin.com/in/bradley-moore-2021"
+          target="_blank"
+        >
           <GridImage src={Bradley}></GridImage>
           <Name>Bradley Moore</Name>
         </GridItem>
-        <GridItem>
+
+        <GridItem
+          href="https://www.linkedin.com/in/jacobakelly/"
+          target="_blank"
+        >
+          <GridImage src={Jake}></GridImage>
+          <Name>Jacob Kelly</Name>
+        </GridItem>
+        <GridItem
+          href="https://www.linkedin.com/in/coltonjacobson/"
+          target="_blank"
+        >
           <GridImage src={Colton}></GridImage>
           <Name>Colton Jacobson</Name>
         </GridItem>
-        <GridItem>
+        <GridItem
+          href="https://www.linkedin.com/in/scott-conner-b596181b5/"
+          target="_blank"
+        >
           <GridImage src={Scott}></GridImage>
           <Name>Scott Connor</Name>
         </GridItem>
-        <GridItem>
+        <GridItem
+          href="https://www.linkedin.com/in/carterwagner/"
+          target="_blank"
+        >
           <GridImage src={Carter}></GridImage>
           <Name>Carter Wagner</Name>
         </GridItem>
-        <GridItem>
+        <GridItem
+          href="https://www.linkedin.com/in/himnish-sapkota/"
+          target="_blank"
+        >
           <GridImage src={Himnish}></GridImage>
           <Name>Himnish Sapkota</Name>
         </GridItem>
-        <GridItem>
+        <GridItem
+          href="https://www.linkedin.com/in/dominic-alberico/"
+          target="_blank"
+        >
           <GridImage src={Dominic}></GridImage>
           <Name>Dominic Alberico</Name>
         </GridItem>

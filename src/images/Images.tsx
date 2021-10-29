@@ -55,10 +55,11 @@ import Carter from "./Carter.png";
 import Billie from "./Billie.jpg";
 import Colton from "./Handsome_Colton.png";
 import Bradley from "./Bradley.png";
-
+import Jake from "./Jacob.png";
 import PickleHack from "./picklehackLogo.png";
 export {
   fifteen,
+  Jake,
   PickleHack,
   Bharat,
   Rachel,
