@@ -120,8 +120,8 @@ export default () => {
         </FlexCenter>
         <FlexCenter>
           <ButtonDiv>
-            <ApplyButton link="https://discord.gg/dpdZ6yjr7j">
-              JOIN DISCORD
+            <ApplyButton link="https://picklehack-2021.devpost.com/">
+              VIEW PROJECTS
             </ApplyButton>
           </ButtonDiv>
 
