@@ -13,9 +13,7 @@ const Button: AnyStyledComponent = styled.a`
   border-radius: 10%;
   padding: 10px;
   font-size: 1.5vw;
-  padding-left: 30%;
-  margin-left: -20px;
-  padding-right: 30%;
+
   color: white;
   cursor: pointer;
   transition: fill 0.25s;
